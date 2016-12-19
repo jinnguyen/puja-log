@@ -1,9 +1,9 @@
 {
-  "name": "jinnguyen/puja-error",
-  "description": "Puja-Log are the handler layers, that handle all fatal exceptions/errors ( include fatal errors) from PHP application. Support  callback function",
+  "name": "jinnguyen/puja-log",
+  "description": "Puja-Log allow sends your logs to files, databases and you can add more drive by your self",
   "type": "library",
   "license": "Apache License 2.0",
-  "keywords": ["Puja Error", "Puja", "Error"],
+  "keywords": ["Puja Log", "Puja", "Log"],
   "authors": [
       {
         "name": "Jin Nguyen",
