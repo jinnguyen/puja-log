@@ -3,7 +3,7 @@ namespace Puja\Log\Driver\File;
 
 use Puja\Log\Driver\DriverAbstract;
 use Puja\Log\Formatter;
-use Puja\FileSystem\File;
+use Puja\Stdlib\File\File;
 
 class Driver extends DriverAbstract
 {
@@ -31,6 +31,5 @@ class Driver extends DriverAbstract
         $log = $formatter->format($record);
         $file = new File($this->folderLog . $this->getFileLog($extra), 'a+');
         $file->fwrite($log);
-
     }
 }
